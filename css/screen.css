@@ -48,13 +48,13 @@ html {
     /* font-family: "inter UI", "Helvetica Neue", Helvetica, arial, sans-serif; */
     font-family: "droid serif", Georgia, serif;
     color: #5c6366;
-    padding: 48px 24px 24px;
+    /* padding: 48px 24px 24px; */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
 body {
-    max-width: 42em;
+    /* max-width: 42em; */
     margin: 0 auto;
 }
 
@@ -257,7 +257,7 @@ a:focus {
 
 @media (min-width: 768px) {
     html {
-        padding: 48px 48px 24px;
+        /* padding: 48px 48px 24px; */
     }
     h1 {
         font-size: 58px;
