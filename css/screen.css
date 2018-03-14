@@ -59,6 +59,48 @@ body {
 }
 
 /*
+    components: type
+    ---
+    special typography classes
+*/
+
+.c-type-meta{
+    font-size: 14px;
+    font-family: "inter ui", "Helvetica Neue", Helvetica, arial, sans-serif;
+    line-height: 16px;
+}
+
+/*
+    components author
+*/
+
+/*
+    UTILITIES: spacing
+    ---
+    Utility classes to put specific spacing values onto elements
+*/
+
+.c-author {
+    display: flex;
+    align-items: center;
+}
+
+.c-author__image{
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+}
+
+.c-author__caption{
+    padding-top: 0;
+}
+
+.c-author__name,
+.c-author__meta {
+    margin-bottom: 0;
+}
+
+/*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
  *
@@ -108,7 +150,7 @@ h2 {
 }
 
 *+h2 {
-    margin-top: 48px;   
+    margin-top: 48px;
 }
 
 h3 {
@@ -169,7 +211,6 @@ figcaption {
     font-size: 12px;
     line-height: 16px;
     padding-top: 8px;
-    color: Grey;
 }
 
 hr {
